@@ -464,6 +464,7 @@ function initialize({
     let username = initialUsername;
     let password = initialPassword;
 
+    console.log(`WebAPI.connect() - initialConfig: ${initialConfig}`);
     /* eslint-disable no-param-reassign */
     if (initialConfig) {
         url = initialConfig.url;

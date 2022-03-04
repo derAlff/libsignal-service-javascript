@@ -48,6 +48,7 @@ const path = require('path');
 
 const args = process.argv.slice(2);
 process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
+process.env["SIGNAL_ENABLE_HTTP"] = 1;
 
 function printError(error) {
   console.log(error);

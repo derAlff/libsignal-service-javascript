@@ -40,6 +40,7 @@
     ]
   },
   "dependencies": {
+    "@signalapp/signal-client": "^0.13.0",
     "@sindresorhus/is": "^0.12.0",
     "@throneless/libsignal-protocol": "^0.1.7",
     "btoa": "^1.2.1",
